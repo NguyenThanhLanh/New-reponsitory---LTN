@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"blink_4_led\startup_stm32f401xc.o"
+"blink_4_led\main.o"
+"blink_4_led\stm32f4xx_it.o"
+"blink_4_led\stm32f4xx_hal_msp.o"
+"blink_4_led\stm32f4xx_hal_tim.o"
+"blink_4_led\stm32f4xx_hal_tim_ex.o"
+"blink_4_led\stm32f4xx_hal_rcc.o"
+"blink_4_led\stm32f4xx_hal_rcc_ex.o"
+"blink_4_led\stm32f4xx_hal_flash.o"
+"blink_4_led\stm32f4xx_hal_flash_ex.o"
+"blink_4_led\stm32f4xx_hal_flash_ramfunc.o"
+"blink_4_led\stm32f4xx_hal_gpio.o"
+"blink_4_led\stm32f4xx_hal_dma_ex.o"
+"blink_4_led\stm32f4xx_hal_dma.o"
+"blink_4_led\stm32f4xx_hal_pwr.o"
+"blink_4_led\stm32f4xx_hal_pwr_ex.o"
+"blink_4_led\stm32f4xx_hal_cortex.o"
+"blink_4_led\stm32f4xx_hal.o"
+"blink_4_led\stm32f4xx_hal_exti.o"
+"blink_4_led\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "Blink_4_LED\Blink_4_LED.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Blink_4_LED.map" -o Blink_4_LED\Blink_4_LED.axf
