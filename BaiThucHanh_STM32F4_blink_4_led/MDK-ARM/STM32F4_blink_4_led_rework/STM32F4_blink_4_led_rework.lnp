@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"stm32f4_blink_4_led_rework\startup_stm32f401xc.o"
+"stm32f4_blink_4_led_rework\main.o"
+"stm32f4_blink_4_led_rework\stm32f4xx_it.o"
+"stm32f4_blink_4_led_rework\stm32f4xx_hal_msp.o"
+"stm32f4_blink_4_led_rework\stm32f4xx_hal_tim.o"
+"stm32f4_blink_4_led_rework\stm32f4xx_hal_tim_ex.o"
+"stm32f4_blink_4_led_rework\stm32f4xx_hal_rcc.o"
+"stm32f4_blink_4_led_rework\stm32f4xx_hal_rcc_ex.o"
+"stm32f4_blink_4_led_rework\stm32f4xx_hal_flash.o"
+"stm32f4_blink_4_led_rework\stm32f4xx_hal_flash_ex.o"
+"stm32f4_blink_4_led_rework\stm32f4xx_hal_flash_ramfunc.o"
+"stm32f4_blink_4_led_rework\stm32f4xx_hal_gpio.o"
+"stm32f4_blink_4_led_rework\stm32f4xx_hal_dma_ex.o"
+"stm32f4_blink_4_led_rework\stm32f4xx_hal_dma.o"
+"stm32f4_blink_4_led_rework\stm32f4xx_hal_pwr.o"
+"stm32f4_blink_4_led_rework\stm32f4xx_hal_pwr_ex.o"
+"stm32f4_blink_4_led_rework\stm32f4xx_hal_cortex.o"
+"stm32f4_blink_4_led_rework\stm32f4xx_hal.o"
+"stm32f4_blink_4_led_rework\stm32f4xx_hal_exti.o"
+"stm32f4_blink_4_led_rework\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "STM32F4_blink_4_led_rework\STM32F4_blink_4_led_rework.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "STM32F4_blink_4_led_rework.map" -o STM32F4_blink_4_led_rework\STM32F4_blink_4_led_rework.axf
