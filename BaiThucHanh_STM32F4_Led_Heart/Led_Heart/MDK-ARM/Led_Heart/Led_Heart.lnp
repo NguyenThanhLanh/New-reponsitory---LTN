@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"led_heart\startup_stm32f401xe.o"
+"led_heart\main.o"
+"led_heart\stm32f4xx_it.o"
+"led_heart\stm32f4xx_hal_msp.o"
+"led_heart\stm32f4xx_hal_tim.o"
+"led_heart\stm32f4xx_hal_tim_ex.o"
+"led_heart\stm32f4xx_hal_rcc.o"
+"led_heart\stm32f4xx_hal_rcc_ex.o"
+"led_heart\stm32f4xx_hal_flash.o"
+"led_heart\stm32f4xx_hal_flash_ex.o"
+"led_heart\stm32f4xx_hal_flash_ramfunc.o"
+"led_heart\stm32f4xx_hal_gpio.o"
+"led_heart\stm32f4xx_hal_dma_ex.o"
+"led_heart\stm32f4xx_hal_dma.o"
+"led_heart\stm32f4xx_hal_pwr.o"
+"led_heart\stm32f4xx_hal_pwr_ex.o"
+"led_heart\stm32f4xx_hal_cortex.o"
+"led_heart\stm32f4xx_hal.o"
+"led_heart\stm32f4xx_hal_exti.o"
+"led_heart\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "Led_Heart\Led_Heart.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Led_Heart.map" -o Led_Heart\Led_Heart.axf
