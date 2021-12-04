@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"ngatngoaiquachana0\startup_stm32f401xe.o"
+"ngatngoaiquachana0\main.o"
+"ngatngoaiquachana0\stm32f4xx_it.o"
+"ngatngoaiquachana0\stm32f4xx_hal_msp.o"
+"ngatngoaiquachana0\stm32f4xx_hal_tim.o"
+"ngatngoaiquachana0\stm32f4xx_hal_tim_ex.o"
+"ngatngoaiquachana0\stm32f4xx_hal_rcc.o"
+"ngatngoaiquachana0\stm32f4xx_hal_rcc_ex.o"
+"ngatngoaiquachana0\stm32f4xx_hal_flash.o"
+"ngatngoaiquachana0\stm32f4xx_hal_flash_ex.o"
+"ngatngoaiquachana0\stm32f4xx_hal_flash_ramfunc.o"
+"ngatngoaiquachana0\stm32f4xx_hal_gpio.o"
+"ngatngoaiquachana0\stm32f4xx_hal_dma_ex.o"
+"ngatngoaiquachana0\stm32f4xx_hal_dma.o"
+"ngatngoaiquachana0\stm32f4xx_hal_pwr.o"
+"ngatngoaiquachana0\stm32f4xx_hal_pwr_ex.o"
+"ngatngoaiquachana0\stm32f4xx_hal_cortex.o"
+"ngatngoaiquachana0\stm32f4xx_hal.o"
+"ngatngoaiquachana0\stm32f4xx_hal_exti.o"
+"ngatngoaiquachana0\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "NgatNgoaiQuaChanA0\NgatNgoaiQuaChanA0.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "NgatNgoaiQuaChanA0.map" -o NgatNgoaiQuaChanA0\NgatNgoaiQuaChanA0.axf
